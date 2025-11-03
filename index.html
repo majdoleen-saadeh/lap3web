@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="eng" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kilometers to Miles Converter</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kilometers to Miles Converter</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>Kilometers to Miles Converter</h1>
+    <h1>Kilometers to Miles Converter</h1>
 
-    <label for="kilometersInput">Enter Kilometers Distance  </label>
-    <input type="number" id="kilometersInput" placeholder="Enter A Number Here">
-    
-    <div class="buttons"> 
-      <button id="convertButton">Convert to Miles</button>
-      <button id="clearButton" class="clear-btn">Clear</button>
-    </div>
-    
-   
-    <p id="resultDisplay">The Result </p>
-    
-    <script src="script.js"></script>
+    <label for="kilometersInput">Enter Kilometers Distance  </label>
+    <input type="number" id="kilometersInput" placeholder="Enter A Number Here">
+    
+    <div class="buttons"> 
+            <button id="convertButton" onclick="handleConversion()">Convert to Miles</button>
+            <button id="clearButton" class="clear-btn" onclick="handleClear()">Clear</button>
+    </div>
+    
+   
+    <p id="resultDisplay">The Result </p>
+    
+    <script src="script.js"></script>
 </body>
 </html>

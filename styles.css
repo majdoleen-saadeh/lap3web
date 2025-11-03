@@ -29,9 +29,9 @@ input[type="number"] {
 }
 
 .buttons {
-
-    gap: 10px;
-    margin-bottom: 200px;
+    display: flex;
+    gap: 5سpx;
+    margin-bottom: 50px;
     width: 300px;
 }
 
